@@ -7,6 +7,8 @@
 body {
     width: 100%;
     height: 100%;
+    font-family: 'Lato', sans-serif;
+
 }
 
 html {
@@ -33,42 +35,56 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
+    padding-top: 175px;
+    background: #34495e;
+    color:white;
 }
 
 .technologies-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top:100px;
     text-align: center;
-    background: #eee;
+    background: #fff;
+    color:#34495e;
+    font-size:17px;
 }
 
 .experience-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 200px;
     text-align: center;
-    background: #fff;
-}
-
-.alterEgo-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+    background: #34495e;
+    color:white;
 }
 
 .portfolio-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: white;
+    color:#34495e;
+
+}
+
+.alterEgo-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #34495e;
+    color:white;
+    background-image:url('../images/world.png');
+    
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+  	background: #fff;
+    color:#34495e;
+}
+
+.experience-timeline div{
+	padding:12px 6px 12px 6px;
+	font-size:15px;
 }

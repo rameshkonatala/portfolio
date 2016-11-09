@@ -21,12 +21,14 @@
 	    <!-- Custom CSS -->
     	<link href="{% static 'intro/css/scrolling-nav.css' %}" rel="stylesheet">
 
-	    
+    	<!-- font family -->
+    	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet"> 
+
 	</head>
 	<body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top">
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse ">
@@ -42,10 +44,10 @@
                         <a class="page-scroll" href="#experience">Experience</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#alterEgo">Alter Ego</a>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#alterEgo">Alter Ego</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -61,21 +63,19 @@
     <section id="intro" class="intro-section">
         <div class="container-fluid">
             <div class="row">
-                <div class="media">
-                  <div class="media-left">
-                    <img src="img_avatar1.png" class="media-object" style="width:60px">
-                  </div>
-                  <div class="media-body">
-                    <h4 class="media-heading">Hello there
-                     I am ramesh konatala</h4>
-                    <p>I am a freelance full stack web developer
-                     based in India.
-                     Starting off as a mechanical engineer 
-                     the digital world has won over me early on and
-                     ever since I took a turn towards web development and have been enthusiatic
-                     about designing and building user friendly websites.</p>
-                  </div>
+                <div class="col-md-4">
+                    <img src="{% static 'intro/images/person.png' %}"  style="width:300px">
                 </div>
+                <div class="col-md-8" style="font-size:20px">
+	                <p class="text-left text-justified" style="padding-top:80px">
+	                     Hello there, 
+	                     <br>I am <strong>ramesh konatala</strong> 
+	                     <br>I am a freelance full stack web developer based in India.                 
+	                     <br>Starting off as a mechanical engineer the digital world has won over me early on and
+	                     <br>ever since I took a turn towards web development and have been enthusiatic
+	                     <br>about designing and building user friendly websites.
+	                </p>
+                 </div>
             </div>
         </div>
     </section>
@@ -83,33 +83,128 @@
     <!-- technologies Section -->
     <section id="technologies" class="technologies-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Technologies Here</p>
-                </div>
-            </div>
+            <h3>Technologies Here</h3>
+		      <div class="row">
+			    <div class="col-md-6"> 
+			    	<p> 
+			    	Languages
+			    	</p>
+			    </div>
+			    <div class="col-md-6"> 
+			    	<p> 
+			    		Python, Javascript, C++, HTML, CSS
+			    	</p>
+			    </div>
+			  </div>
+			  <hr>
+			  <div class="row">
+			    <div class="col-md-6"> 
+			    	<p> 
+			    	Frameworks/Tollkits/Libraries
+			    	</p>
+			    </div>
+			    <div class="col-md-6"> 
+			    	<p> 
+			    		Django, Bootstrap, jQuery, AngularJS
+			    	</p>
+			    </div>
+			  </div>
+			  <hr>
+			  <div class="row">
+			    <div class="col-md-6"> 
+			    	<p> 
+			    	Database
+			    	</p>
+			    </div>
+			    <div class="col-md-6"> 
+			    	<p> 
+			    	MySQL, SQLite
+			    	</p>
+			    </div>
+			  </div>
+			  <hr>
+			  <div class="row">
+			    <div class="col-md-6"> 
+			    	<p> 
+			    	Developer tools
+			    	</p>
+			    </div>
+			    <div class="col-md-6"> 
+			    	<p> 
+			    	Git
+			    	</p>
+			    </div>
+			  </div>
+			  <hr>
+			  <div class="row">
+			    <div class="col-md-6"> 
+			    	<p> 
+			    	Others
+			    	</p>
+			    </div>
+			    <div class="col-md-6"> 
+			    	<p> 
+			    	Photoshop, After effects, Premiere Pro
+			    	</p>
+			    </div>
+			  </div>
+			  <hr>
+			  <div class="row">
+			    <div class="col-md-6"> 
+			    	<p> 
+			    	OS
+			    	</p>
+			    </div>
+			    <div class="col-md-6"> 
+			    	<p> 
+			    	Linux, Windows
+			    	</p>
+			    </div>
+			  </div>
+			  <hr>
         </div>
     </section>
 
     <!-- experience Section -->
     <section id="experience" class="experience-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Experience Here</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            <div class="experience-timeline">
+                <div class="row">
+	            	<div class="col-md-3">
+	            		<p>July'10 - July'14<br>Bachelors in Engineering at NIT warangal<br><em> - Specialized in mechanical engineering</em></p>
+	            	</div>
 
-    <!-- alter ego Section -->
-    <section id="alterEgo" class="alterEgo-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Alter Ego Here</p>
-                </div>
-            </div>
+	            	<div class="col-md-3">
+	            		<p></p>
+	            	</div>
+	            	
+	            	<div class="col-md-3">
+	            		<p>Jan'16 - July'16<br>Python developer at Oliveboard<br><em> - taking care of cotent automation</em></p>
+	            	</div>
+	            	
+	            	<div class="col-md-3">
+	            		<p></p>
+	            	</div>
+	            </div>
+	            <div class="row" ><hr></div>
+	            <div class="row">
+	            	<div class="col-md-3">
+	            		<p></p>
+	            	</div>
+
+	            	<div class="col-md-3">
+	            		<p>July'14 - Jan'16<br>Production Engineer at Honda Motors<br><em> - taking care of vehicle defect analysis</em></p>
+	            	</div>
+	            	
+	            	<div class="col-md-3">
+	            		<p></p>
+	            	</div>
+	            	
+	            	<div class="col-md-3">
+	            		<p>July'16 - present<br>UI developer at Centaur<br><em> - startup aimed at designing E-bikes</em></p>
+	            	</div>
+	            </div>
+	        </div>
         </div>
     </section>
 
@@ -118,7 +213,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Portfolio Here</p>
+                    <p>portfolio Here</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- alter Ego Section -->
+    <section id="alterEgo" class="alterEgo-section">
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>alter ego Here</p>
                 </div>
             </div>
         </div>
