@@ -220,12 +220,14 @@
     </section>
 
     <!-- alter Ego Section -->
-    <section id="alterEgo" class="alterEgo-section">
+    <section id="alterEgo" class="alterEgo-section" >
     
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <p>alter ego Here</p>
+                <div class="col-md-6">
+                    <p class="text-right text-justified">
+                        text here
+                    </p>
                 </div>
             </div>
         </div>
@@ -233,12 +235,46 @@
 
     <!-- contact Section -->
     <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Contact Here</p>
-                </div>
+        <div id="contact" class="container-fluid">
+          <h2 class="text-center">CONTACT</h2>
+          <div class="row">
+            <div class="col-sm-5">
+              <p>Want to talk about your next project?</p>
+              <p><span class="glyphicon glyphicon-map-marker"></span> Warangal, India</p>
+              <p><span class="glyphicon glyphicon-phone"></span> +91-9652272470</p>
+              <p><span class="glyphicon glyphicon-envelope"></span> konatalaramesh@gmail.com</p>
+              <div class="row">
+                  <div class="col-md-3">
+                      <a href="https://www.facebook.com/ramesh.konatala9" target="_blank"><img src="{% static 'intro/images/facebook.svg' %}" width="30%"></a>
+                  </div>
+                  <div class="col-md-3">
+                      <a href="https://in.linkedin.com/in/rameshkonatala" target="_blank"><img src="{% static 'intro/images/linkedin.svg' %}" width="30%"></a>
+                  </div>
+                  <div class="col-md-3">
+                      <a href="https://github.com/rameshkonatala/" target="_blank"><img src="{% static 'intro/images/github.svg' %}" width="30%"></a>
+                  </div>
+                  <div class="col-md-3">
+                      <a href="https://www.quora.com/Ramesh-Konatala" target="_blank"><img src="{% static 'intro/images/quora.svg' %}" width="30%"></a>
+                  </div>
+              </div>
             </div>
+            <div class="col-sm-7 slideanim">
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+              </div>
+              <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right" type="submit">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </section>
 
