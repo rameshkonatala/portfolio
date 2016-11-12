@@ -222,34 +222,34 @@
     <section id="portfolio" class="portfolio-section">
         <div class="container">
             <div class="row">
-                <li>
+                <div>
                   <button type="button" class="btn btn-default link">Works</button>
-                  <div class="panel active" ng-controller="MainController" id="div1">
+                  <div class="panel" ng-controller="MainController" id="div1">
                     <p>Deliverbles here</p>
                       <div ng-repeat="work in works">
                         <h1>{{work.organisation}}</h1>
                         <p>{{work.deliverable}}</p>
                       </div>
                   </div>
-                </li>
-                <li>
+                </div>
+                <div>
                     <button type="button" class="btn btn-default link">HTML/CSS</button>
                     <div class="panel" id="div1">
                       <p>html here</p>
                     </div>
-                </li>
-                <li>
+                </div>
+                <div>
                     <button type="button" class="btn btn-default link">jQuery</button>
-                    <div class="panel" id="div1"> 
+                    <div class="panel active" id="div1"> 
                       <p>css here</p>
                     </div>
-                </li>
-                <li>
+                </div>
+                <div>
                     <button type="button" class="btn btn-default link">Angular JS</button>
                     <div class="panel" id="div1">
                       <p>jquery here</p>
                     </div>
-                </li>
+                </div>
             </div>
         </div>
     </section>
