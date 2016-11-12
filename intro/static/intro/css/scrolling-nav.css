@@ -88,3 +88,6 @@ of those sections to manage the look and feel of the site. */
 	padding:12px 6px 12px 6px;
 	font-size:15px;
 }
+
+div.panel { display:none; }
+div.panel.active { display:block; }
