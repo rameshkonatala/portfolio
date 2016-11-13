@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
 		<title>ramesh konatala</title>
 		<link rel="icon" href="{% static 'intro/images/avatar.ico' %}">
 
@@ -217,10 +218,11 @@
         </div>
     </section>
 
-    {% verbatim %}
+    
     <!-- portfolio Section -->
     <section id="portfolio" class="portfolio-section">
-        <div class="container">
+        <div class="container" >
+            {% verbatim %}
             <div class="row">
                 <div>
                   <button type="button" class="btn btn-default link">Works</button>
@@ -232,10 +234,145 @@
                       </div>
                   </div>
                 </div>
+            {% endverbatim %}    
                 <div>
                     <button type="button" class="btn btn-default link">HTML/CSS</button>
                     <div class="panel" id="div1">
-                      <p>html here</p>
+                      <div id='ninja-slider'>
+                          <div>
+                              <div class="slider-inner">
+                                  <ul>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/1.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/2.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/3.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/4.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/5.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/a.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/b.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/c.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/d.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/1.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/3.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/4.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/a.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/2.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/3.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/4.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/1.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/1.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/1.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/1.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/1.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/1.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/1.jpg' %}"></a></li>
+                                      <li><a class="ns-img" href="{% static 'intro/images/img/1.jpg' %}"></a></li>
+                                  </ul>
+                                  <div class="fs-icon" title="Expand/Close"></div>
+                              </div>
+                              <div id="thumbnail-slider">
+                                  <div class="inner">
+                                      <ul>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>0</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/2.jpg' %}"></a>
+                                              <span>1</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/3.jpg' %}"></a>
+                                              <span>2</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/4.jpg' %}"></a>
+                                              <span>3</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/5.jpg' %}"></a>
+                                              <span>4</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/a.jpg' %}"></a>
+                                              <span>5</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/b.jpg' %}"></a>
+                                              <span>6</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/c.jpg' %}"></a>
+                                              <span>7</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/d.jpg' %}"></a>
+                                              <span>8</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>9</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>10</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>11</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>12</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>13</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>14</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>15</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>16</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>17</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>18</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>19</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>20</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>21</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>22</span>
+                                          </li>
+                                          <li>
+                                              <a class="thumb" href="{% static 'intro/images/img/1.jpg' %}"></a>
+                                              <span>23</span>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
                     </div>
                 </div>
                 <div>
@@ -253,7 +390,7 @@
             </div>
         </div>
     </section>
-    {% endverbatim %}
+    
 
     <!-- alter Ego Section -->
     <section id="alterEgo" class="alterEgo-section" >
