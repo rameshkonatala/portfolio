@@ -4,7 +4,15 @@ $(function()   {
         $('div.panel:visible').hide();
         $(this).next('div.panel').show();
     });
+
+    $(".insideLink").click(function(e) {
+        e.preventDefault();
+        $('div.insidePanel:visible').hide();
+        $(this).next('div.insidePanel').show();
+    });
 });
+
+
 
 
 /* ninja-slider.js */
