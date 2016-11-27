@@ -71,9 +71,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #34495e;
-    color:white;
-    background-image:url('../images/world.png');
-    
+    color:white;   
 }
 
 .contact-section {
