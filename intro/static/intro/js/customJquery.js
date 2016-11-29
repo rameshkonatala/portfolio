@@ -1,19 +1,25 @@
-$(function()   {
-    $(".link").click(function(e) {
-        e.preventDefault();
-        $('div.panel:visible').hide();
-        $(this).next('div.panel').show();
+$(document).ready(function(){
+        $('#menu1').hover(function(event) {        
+             $('#submenu1').fadeToggle('fast',function(){
+
+             });
+
+        });
     });
+$(document).ready(function(){
+        $('#menu2').hover(function(event) {        
+             $('#submenu2').fadeToggle('fast',function(){
 
-    $(".insideLink").click(function(e) {
-        e.preventDefault();
-        $('div.insidePanel:visible').hide();
-        $(this).next('div.insidePanel').show();
+             });
+        });
     });
-});
+$(document).ready(function(){
+        $('#menu3').hover(function(event) {        
+             $('#submenu3').fadeToggle('fast',function(){
 
-
-
+             });
+        });
+    });
 
 /* ninja-slider.js */
 var nsOptions =
