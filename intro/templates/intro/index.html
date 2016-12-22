@@ -8,6 +8,7 @@
 <meta name="robots" content="noindex, follow">
 <meta name="description" content="portfolio">
 <meta name="author" content="ramesh konatala">
+<link rel="shortcut icon" href="{% static 'intro/images/avatar.ico' %}">
 
 <!-- Bootstrap -->
 <link rel="stylesheet" type="text/css"  href="{% static 'intro/css/bootstrap.css' %}">
@@ -403,41 +404,15 @@
     <div class="section-title text-center wow fadeInDown">
       <h2>Contact me</h2>
       <hr>
-      <div class="clearfix"></div>
+    <div class="wow fadeInDown" data-wow-delay="200ms">
+      <div class="space"></div>
+      <p><i class="fa fa-map-marker fa-fw "></i>Innovation center,NIT Warangal<br>Kazipet, Telangana, India</p>
+      <div class="space"></div>
+      <p><i class="fa fa-envelope-o fa-fw"></i>konatalaramesh@gmail.com</p>
+      <div class="space"></div>
+      <p><i class="fa fa-phone fa-fw"></i>+91 9652272470</p>
     </div>
-    <div class="col-md-4 wow fadeInDown" data-wow-delay="200ms">
-      <h3>Contact Info</h3>
-      <div class="space"></div>
-      <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Innovation center,NIT Warangal<br>Kazipet, Telangana, India</p>
-      <div class="space"></div>
-      <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>konatalaramesh@gmail.com</p>
-      <div class="space"></div>
-      <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>
-      +91 9652272470</p>
     </div>
-    <div class="col-md-8 wow fadeInDown" data-wow-delay="200ms">
-      <h3>Leave me a message</h3>
-      <form action="" role="form" method="post" >
-        {% csrf_token  %}
-        <div class="row">
-              <div class="col-md-6">
-                <ul>Name</ul>
-                {{form.name}}  
-              </div>
-              <div class="col-md-6">
-                <ul>Mail id</ul>
-                {{form.mail_id}}
-              </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <br>
-                <ul>Comment</ul> 
-                {{form.comment}}
-            </div>
-        </div>
-        <button type="submit" class="btn btn-default">Send Message</button>
-      </form>
     </div>
   </div>
 </div>
